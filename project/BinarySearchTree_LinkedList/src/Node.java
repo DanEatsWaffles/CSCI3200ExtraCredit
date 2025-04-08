@@ -1,4 +1,4 @@
-package CSCI_3200;
+
 
 public class Node<E> {
 	protected E element;
