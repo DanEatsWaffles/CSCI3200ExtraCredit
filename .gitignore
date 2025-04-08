@@ -1,0 +1,16 @@
+*.class
+*.jar
+*.war
+*.log
+*.iml
+.DS_Store
+.vscode/
+bin/
+out/
+target/
+.idea/
+*.swp
+*.bak
+*.tmp
+.gradle/
+build/
