@@ -83,9 +83,16 @@ public class BinarySearchTree_LinkedList {
     // first starting from the root node n(rt). When found return the value of its
     // parent.
      //Return -1 if the value is not in the tree or the node is root.
-        if (root != null || rt.element == add.element) {
+        if (rt == null) {
             return -1;
         }
+        
+        // If the current node is the node we're looking for,
+        // then it is the root and therefore has no parent.
+        if (rt.element == add.element) {
+            return -1;
+        }
+
         if ((rt.left != null && rt.left.element == add.element) || (rt.right != null && rt.right.element == add.element)) {
         return rt.element;
         }
