@@ -1,5 +1,8 @@
 package CSCI3200;
 
+//Team Members: James Harden and Dan Winsness
+//Put extra credit to the final please
+
 import java.util.LinkedList;
 
 public class BinarySearchTree_LinkedList {
@@ -32,7 +35,7 @@ public class BinarySearchTree_LinkedList {
     }
 
     public Node<Integer> findmax(Node<Integer> node) {
-    // searches the left subtree to
+    // searches the right subtree to
     // return the maximum 
         if (node == null) {
             return null;
@@ -44,7 +47,7 @@ public class BinarySearchTree_LinkedList {
     }
 
     public Node<Integer> findmin(Node<Integer> node) {
-    // searches the right subtree to return the minimum node
+    // searches the left subtree to return the minimum node
         if (node == null) {
             return null;
         }
